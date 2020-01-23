@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+.p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-pills{
+    color: black;
+}
+
+img {
+    border-radius: 15px 50px;
+}
+
+.blockquote {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+    background: url("../image/julien-leclercq-DK9VZ6YvXqI-unsplash.jpg");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tree {
+    margin-bottom: 24px;
+}
+
+.text-muted {
+    margin-bottom: 24px;
+}

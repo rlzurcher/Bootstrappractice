@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -13,20 +14,66 @@
      <h1>practicing bootstrap</h1>
      <div class="row">
          <div class="col-md-8 col-md-offset-8">
-            <ul class="nav nav-pills">
+            <ul class="nav nav-pills" class="breadcrumb">
                 <li role="presentation" class="active"><a href="#">Home</a></li>
                 <li role="presentation"><a href="#">Profile</a></li>
                 <li role="presentation"><a href="#">Messages</a></li>
+                
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+
               </ul>
          </div>
         <div class="jumbotron">
-            <h1>hello there</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, nemo architecto iure recusandae eligendi eum voluptate culpa quam fugiat. Iure.</p>
+            <h1>Welcome</h1>
             <a href="" class="btn btn-primary">this is a button</a>
         </div>
         <div class="row">
             <div class="well well-sm">
-                I am a small well
+                <ul class="list-inline">
+                    <li>nature</li>
+                    <li>photography</li>
+                    <li>other</li>
+                  </ul>
+            </div>
+            <blockquote class="blockquote-reverse">
+                <p>The mountains are calling and I must go.
+                    In every walk with nature one receives far more than he seeks.
+                    Climb the mountains and get their good tidings.</p>
+                <footer> <cite title="Source Title">John Muir</cite></footer>
+              </blockquote >
+        </div>
+        <div class="container">
+            <div class="col-md-8">
+                <img src="image/daniel-mirlea-_7IUgAL60nc-unsplash.jpg" alt="snowey trees" class="img-responsive" class="img-rounded">
+            </div>
+            <div class="col-md-4 tree">
+                <img src="image/eberhard-grossgasteiger-wZ8KKGUHxtU-unsplash.jpg" alt="trees in the fog" class="img-responsive" class="img-rounded">
+            </div>
+            <div class="text-muted" class="col-md-12"> 
+            Sunt corrupti perspiciatis iusto sed temporibus excepturi aperiam dolorum, in consequuntur nisi, deleniti unde ipsa totam id impedit rerum, eveniet assumenda. Iusto officia veritatis maxime, quaerat consectetur repellendus repellat sequi.
+            Fuga, minima illum est dolorum amet a ratione ex corporis praesentium perferendis, facilis minus accusamus rem quas error ad reiciendis laudantium! Eos obcaecati dolores provident nam odit? Optio, magni minima?
+            Dolore rerum earum repellat error dolorem, explicabo placeat enim necessitatibus doloremque tempore sunt, facilis exercitationem commodi illo rem veritatis aspernatur magnam, veniam suscipit nostrum repellendus porro architecto. Omnis, eius quos.
+            In voluptas illum temporibus ea nam exercitationem tempore iste. Autem repellat sequi libero nihil, fugit est quam, modi iure, officiis beatae eius? Eius voluptate accusamus expedita soluta quo modi minima?
+            Unde odio officiis ab? Voluptates libero consectetur aliquid ipsum? Dolore expedita debitis voluptas quisquam dolorum, facilis et sed, quis autem nobis ea? Dolore tempore et molestias aperiam? Dignissimos, numquam facilis.
+            Dolor accusamus nulla odit numquam voluptatem laudantium vel quibusdam ad at doloribus sint optio, corporis autem iste dignissimos sunt illo quia aliquid facere. Eaque, veniam inventore quas autem fuga expedita!
+            Quo dignissimos dolorem fuga iusto quaerat sed nobis voluptatum. Debitis illo explicabo itaque placeat culpa excepturi minima facilis, quibusdam laudantium impedit alias similique obcaecati est quisquam facere necessitatibus blanditiis natus?</div class="text-primary">
+            <div class="col-md-4">
+                <img src="image/david-clode-xNVPuHanjkM-unsplash.jpg" alt="trees in the fog" class="img-responsive" class="img-rounded">
+            </div>
+            <div class="col-md-8">
+                <img src="image/tomas-malik-UAVSczNLrCk-unsplash.jpg" alt="overhead view of a glacier" class="img-responsive">
             </div>
         </div>
      </div>
